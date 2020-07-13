@@ -1,0 +1,1 @@
+# mascotpartners-redesign
