@@ -9,6 +9,10 @@
 	border-left:none;
 	border-right:none;
 }
+.home .vc_row{
+	margin-left:0;
+	margin-right:0;
+}
 .property-items-container .span3{width:230px;}
 .property-items-container{margin-left:-20px;}
 @media (min-width: 1200px){
