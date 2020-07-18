@@ -256,9 +256,26 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+@media (max-width: 439px){
+	.property-items .listing-layout .property-item {
+	    padding-top:0;
+	}
+	.property-items-container .property-item:first-child {
+	    border-top:none;
+	}	
+	.property-items .listing-layout .property-item .property-meta{
+		border:none;
+	}
+}
+@media (max-width: 499px){
+	.property-items .listing-layout .property-item .property-meta span {
+	    border:none;
+	    width:auto;
+	}
+}
 
 
-/* Buy */
+/* Team */
 .page-template-team .main{
 	border:none;
 }
@@ -320,9 +337,10 @@
 	top:3px;
 }
 
-@media (max-width: 439px)
-.listing-layout .about-agent {
-    border: none;
+@media (max-width: 439px){
+	.listing-layout .about-agent {
+	    border: none;
+	}
 }
 
 
