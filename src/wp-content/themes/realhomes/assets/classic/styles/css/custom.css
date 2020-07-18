@@ -324,3 +324,26 @@
 .listing-layout .about-agent {
     border: none;
 }
+
+
+/* Advanced Search */
+.custom-advanced-search-widget.widget.advance-search .option-bar.large{
+	width: 355px;
+}
+.custom-advanced-search-widget.widget.advance-search .option-bar.small{
+	width: 232px;
+}
+@media screen and (max-width: 390px) and (min-width: 320px){
+	.custom-advanced-search-widget.widget.advance-search .option-bar.large,
+	.custom-advanced-search-widget.widget.advance-search .option-bar.small{
+	    width: 273px;
+	}
+}
+.custom-advanced-search-widget.widget.advance-search .real-btn{
+	margin-top:24px;
+}
+@media (max-width: 439px){
+	.custom-advanced-search-widget.widget.advance-search .real-btn{
+		margin-top:10px;
+	}
+}
