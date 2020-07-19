@@ -377,6 +377,12 @@
 	margin-bottom:35px;
 }
 
+/*Fix search ordering filter and results margin*/
+.search-header.inner-wrapper.clearfix {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 /* Single Agent */
 .single-agent .main{
 	border:none;
