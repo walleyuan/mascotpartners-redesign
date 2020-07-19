@@ -388,7 +388,7 @@
 .single-agent .list-container{
 	padding-left:0;
 	padding-right:0;
-	padding-top:0;
+	/*padding-top:0;*/
 }
 .single-agent .about-agent .follow-agent{
 	margin-left:0;
