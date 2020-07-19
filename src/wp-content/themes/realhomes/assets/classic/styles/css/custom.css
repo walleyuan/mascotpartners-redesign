@@ -276,14 +276,14 @@
 
 
 /* Team */
-.page-template-team .main{
+.page-template-agents-list .main{
 	border:none;
 }
-.page-template-team .listing-layout{
+.page-template-agents-list .listing-layout{
     background-color: transparent;
     border:none;
 }
-.page-template-team .list-container{
+.page-template-agents-list .list-container{
 	padding:0;
 }
 .about-agent{
@@ -364,4 +364,15 @@
 	.custom-advanced-search-widget.widget.advance-search .real-btn{
 		margin-top:10px;
 	}
+}
+
+
+/*Fix menu hover width*/
+.main-menu ul li ul li a {
+	width: 200px
+}
+
+/*Fix Agent List*/
+.page-template-agents-list .page-head, .page-template-home .page-head{
+	margin-bottom:35px;
 }
