@@ -376,3 +376,27 @@
 .page-template-agents-list .page-head, .page-template-home .page-head{
 	margin-bottom:35px;
 }
+
+/* Single Agent */
+.single-agent .main{
+	border:none;
+}
+.single-agent .listing-layout{
+	border:none;
+	background:none;
+}
+.single-agent .list-container{
+	padding-left:0;
+	padding-right:0;
+	padding-top:0;
+}
+.single-agent .about-agent .follow-agent{
+	margin-left:0;
+	margin-right:0;
+}
+@media (max-width: 540px){
+	.single-agent .about-agent{
+		padding-left:20px;
+		padding-right:20px;
+	}
+} 
